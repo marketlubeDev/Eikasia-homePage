@@ -45,6 +45,106 @@
     transform: translateY(0) scale(1.4);
   }
 }
+@keyframes slideInFromBottomRotate {
+  0% {
+    opacity: 0;
+    transform: translateY(200px) scale(0.5) rotate(20deg);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1) rotate(0deg);
+  }
+}
+
+// Individual letter animations with increasing rotation angles
+@keyframes slideInFromBottomRotateA {
+  0% {
+    opacity: 0;
+    transform: translateY(200px) scale(0.5) rotate(25deg);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1) rotate(0deg);
+  }
+}
+
+@keyframes slideInFromBottomRotateD {
+  0% {
+    opacity: 0;
+    transform: translateY(200px) scale(0.5) rotate(30deg);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1) rotate(0deg);
+  }
+}
+
+@keyframes slideInFromBottomRotateV {
+  0% {
+    opacity: 0;
+    transform: translateY(200px) scale(0.5) rotate(35deg);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1) rotate(0deg);
+  }
+}
+
+@keyframes slideInFromBottomRotateE {
+  0% {
+    opacity: 0;
+    transform: translateY(200px) scale(0.5) rotate(40deg);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1) rotate(0deg);
+  }
+}
+
+@keyframes slideInFromBottomRotateR {
+  0% {
+    opacity: 0;
+    transform: translateY(200px) scale(0.5) rotate(45deg);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1) rotate(0deg);
+  }
+}
+
+@keyframes slideInFromBottomRotateT {
+  0% {
+    opacity: 0;
+    transform: translateY(200px) scale(0.5) rotate(50deg);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1) rotate(0deg);
+  }
+}
+
+@keyframes slideInFromBottomRotateI {
+  0% {
+    opacity: 0;
+    transform: translateY(200px) scale(0.5) rotate(55deg);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1) rotate(0deg);
+  }
+}
+
+@keyframes slideInFromBottomRotateN {
+  0% {
+    opacity: 0;
+    transform: translateY(200px) scale(0.5) rotate(60deg);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1) rotate(0deg);
+  }
+}
+
 @keyframes slideInFromTop {
   0% {
     opacity: 0;
