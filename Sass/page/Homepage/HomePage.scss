@@ -29,35 +29,27 @@
           height: 180px;
           object-fit: contain;
           animation-fill-mode: both;
-
-          &.letter-e {
-            // animation: bounce 2s ease-in-out;
-            animation: fadeIn 800ms ease-in-out;
-          }
-
-          &.letter-i {
-            // animation: fadeIn 2s ease-in-out;
-          }
-
-          &.letter-k {
-            // animation: pulse 1.5s ease-in-out;
-          }
-
-          &.letter-a {
-            // animation: float 3s ease-in-out;
-          }
-
-          &.letter-s {
-            // animation: rotate 4s linear;
-          }
-
-          &.letter-i-second {
-            // animation: shake 1s ease-in-out;
-          }
-
-          &.letter-a-second {
-            // animation: glow 2s ease-in-out;
-          }
+        }
+        .letter-e {
+          animation: fadeIn 1000ms ease-in-out forwards;
+        }
+        .letter-i {
+          animation: rotate 1000ms ease-in-out forwards;
+        }
+        .letter-k {
+          animation: slideInFromTop 1500ms ease-in-out forwards;
+        }
+        .letter-a {
+          animation: slideInFromBottom 1500ms ease-in-out forwards;
+        }
+        .letter-s {
+          animation: flipInY 900ms ease-in-out forwards;
+        }
+        .letter-i-second {
+          animation: wobble 1500ms ease-in-out forwards;
+        }
+        .letter-a-second {
+          animation: pulse 1500ms ease-in-out forwards;
         }
       }
     }
