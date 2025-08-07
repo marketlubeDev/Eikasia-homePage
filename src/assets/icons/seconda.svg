@@ -1,0 +1,32 @@
+<svg width="160" height="200" viewBox="0 0 160 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="goldGloss" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff8b0"/>
+      <stop offset="100%" stop-color="#ffb400"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(20, 20)">
+    <!-- Standard lowercase a -->
+    <path d="
+      M90,80
+      C70,80 60,100 60,115
+      C60,135 75,150 95,150
+      C115,150 130,135 130,115
+      L130,70
+      C130,65 125,60 120,60
+      C115,60 110,65 110,70
+      L110,80
+      C105,65 95,60 90,60
+      C80,60 70,65 65,75"
+      fill="url(#goldGloss)" stroke="white" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Gloss line -->
+    <path d="M75,75 C90,60 115,80 120,95"
+          fill="none" stroke="white" stroke-width="3" opacity="0.4" stroke-linecap="round"/>
+
+    <!-- Gloss bubbles -->
+    <circle cx="105" cy="85" r="5" fill="white" opacity="0.2"/>
+    <circle cx="95" cy="70" r="4" fill="white" opacity="0.3"/>
+  </g>
+</svg>

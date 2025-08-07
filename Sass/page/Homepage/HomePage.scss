@@ -1,0 +1,115 @@
+// Homepage Styles
+.homepage {
+  min-height: 100vh;
+  line-height: 1.6;
+  color: #333;
+  background-color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &-container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+
+    &-top {
+      height: 100%;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      color: white;
+
+      div {
+        img {
+          width: auto;
+          height: 180px;
+          object-fit: contain;
+          animation-fill-mode: both;
+
+          &.letter-e {
+            // animation: bounce 2s ease-in-out;
+            animation: fadeIn 800ms ease-in-out;
+          }
+
+          &.letter-i {
+            // animation: fadeIn 2s ease-in-out;
+          }
+
+          &.letter-k {
+            // animation: pulse 1.5s ease-in-out;
+          }
+
+          &.letter-a {
+            // animation: float 3s ease-in-out;
+          }
+
+          &.letter-s {
+            // animation: rotate 4s linear;
+          }
+
+          &.letter-i-second {
+            // animation: shake 1s ease-in-out;
+          }
+
+          &.letter-a-second {
+            // animation: glow 2s ease-in-out;
+          }
+        }
+      }
+    }
+
+    &-bottom {
+      height: 100%;
+      color: white;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+
+      div {
+        img {
+          width: auto;
+          height: 60px;
+          object-fit: contain;
+          animation-fill-mode: both;
+
+          // Individual ad letter animations - entrance only
+          &.ad-letter-a {
+            // animation: slideIn 1s ease-out;
+          }
+
+          &.ad-letter-d {
+            // animation: fadeIn 1.2s ease-out;
+          }
+
+          &.ad-letter-v {
+            // animation: slideIn 1.4s ease-out;
+          }
+
+          &.ad-letter-e {
+            // animation: fadeIn 1.6s ease-out;
+          }
+
+          &.ad-letter-r {
+            // animation: slideIn 1.8s ease-out;
+          }
+
+          &.ad-letter-t {
+            // animation: fadeIn 2s ease-out;
+          }
+
+          &.ad-letter-i {
+            // animation: slideIn 2.2s ease-out;
+          }
+
+          &.ad-letter-n {
+            // animation: fadeIn 2.4s ease-out;
+          }
+        }
+      }
+    }
+  }
+}

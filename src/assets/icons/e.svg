@@ -1,0 +1,32 @@
+<svg width="220" height="200" viewBox="0 0 220 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Glossy red gradient -->
+    <linearGradient id="glossyRed" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff5b5b; stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#cc0000; stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Jelly style letter "e" -->
+  <g transform="translate(10, 20)">
+    <path d="M120,30
+             C90,10 40,30 40,80
+             C40,120 70,140 110,140
+             C135,140 155,130 155,115
+             C155,100 140,90 120,90
+             L70,90
+             C70,70 90,60 115,60
+             C140,60 145,70 145,70
+             L160,50
+             C145,35 135,30 120,30 Z"
+          fill="url(#glossyRed)" stroke="white" stroke-width="6" stroke-linejoin="round" />
+
+    <!-- Glossy highlights -->
+    <path d="M60,45
+             C80,30 120,25 140,40"
+          fill="none" stroke="white" stroke-width="5" opacity="0.6" stroke-linecap="round"/>
+
+    <circle cx="95" cy="110" r="10" fill="white" opacity="0.2" />
+    <circle cx="105" cy="115" r="6" fill="white" opacity="0.3" />
+  </g>
+</svg>

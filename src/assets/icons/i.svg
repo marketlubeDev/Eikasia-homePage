@@ -1,0 +1,32 @@
+<svg width="100" height="220" viewBox="0 0 100 220" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Shiny purple-blue jelly gradient -->
+    <linearGradient id="jellyPurple" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a86dff"/>
+      <stop offset="100%" stop-color="#4600cc"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(10, 10)">
+    <!-- Main body of "i" -->
+    <path d="
+      M30,60
+      C15,60 10,75 10,90
+      L10,150
+      C10,165 15,180 30,180
+      C45,180 50,165 50,150
+      L50,90
+      C50,75 45,60 30,60 Z"
+      fill="url(#jellyPurple)" stroke="white" stroke-width="6" stroke-linejoin="round"/>
+
+    <!-- Dot of "i" -->
+    <circle cx="30" cy="35" r="15" fill="url(#jellyPurple)" stroke="white" stroke-width="6" />
+
+    <!-- Gloss highlights -->
+    <path d="M15,70 C25,60 45,60 50,70"
+          fill="none" stroke="white" stroke-width="4" opacity="0.6" stroke-linecap="round"/>
+
+    <circle cx="38" cy="40" r="6" fill="white" opacity="0.3"/>
+    <circle cx="25" cy="155" r="8" fill="white" opacity="0.2"/>
+  </g>
+</svg>

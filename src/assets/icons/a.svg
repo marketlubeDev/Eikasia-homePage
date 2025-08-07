@@ -1,0 +1,38 @@
+<svg width="160" height="220" viewBox="0 0 160 220" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Orange glossy jelly gradient -->
+    <linearGradient id="normalJellyA" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffaf4b"/>
+      <stop offset="100%" stop-color="#ff6a00"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(10, 10)">
+    <!-- Normal, bold lowercase "a" -->
+    <path d="
+      M120,110
+      C120,75 95,55 70,55
+      C45,55 25,75 25,105
+      C25,135 50,155 80,155
+      C95,155 105,150 110,140
+      L110,155
+      C110,170 120,180 135,180
+      C150,180 160,170 160,155
+      L160,110
+      Z
+      M110,110
+      C110,125 95,135 80,135
+      C65,135 55,125 55,105
+      C55,85 70,75 85,75
+      C100,75 110,85 110,110 Z"
+      fill="url(#normalJellyA)" stroke="white" stroke-width="6" stroke-linejoin="round"/>
+
+    <!-- Glossy top shine -->
+    <path d="M40,70 C60,50 110,60 125,85"
+          fill="none" stroke="white" stroke-width="4" opacity="0.6" stroke-linecap="round"/>
+
+    <!-- Bubble shine -->
+    <circle cx="100" cy="120" r="8" fill="white" opacity="0.2"/>
+    <circle cx="110" cy="95" r="5" fill="white" opacity="0.25"/>
+  </g>
+</svg>
