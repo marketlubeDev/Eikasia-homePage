@@ -16,12 +16,25 @@
     display: flex;
     flex-direction: column;
     overflow-x: hidden;
+    position: relative;
 
     &::-webkit-scrollbar {
       display: none;
     }
     -ms-overflow-style: none;
     scrollbar-width: none;
+
+    // Common wrapper around top and bottom sections that shouldn't affect layout
+    .homepage-sections-normal {
+      width: 100%;
+    }
+
+    .homepage-sections-hover {
+      position: absolute;
+      width: 100%;
+      left: -0%;
+      opacity: 0.5;
+    }
 
     &-top {
       height: 100%;

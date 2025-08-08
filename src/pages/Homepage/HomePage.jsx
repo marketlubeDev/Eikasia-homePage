@@ -19,53 +19,106 @@ const HomePage = () => {
   return (
     <div className="homepage">
       <div className="homepage-container">
-        <div className="homepage-container-top">
-          <div>
-            <img src={eIcon} alt="e" className="letter-e" />
+        <div className="homepage-sections-normal">
+          <div className="homepage-container-top">
+            <div>
+              <img src={eIcon} alt="e" className="letter-e" />
+            </div>
+            <div>
+              <img src={iIcon} alt="i" className="letter-i" />
+            </div>
+            <div>
+              <img src={kIcon} alt="k" className="letter-k" />
+            </div>
+            <div>
+              <img src={aIcon} alt="a" className="letter-a" />
+            </div>
+            <div>
+              <img src={sIcon} alt="s" className="letter-s" />
+            </div>
+            <div>
+              <img src={seconsI} alt="i" className="letter-i-second" />
+            </div>
+            <div>
+              <img src={seconda} alt="a" className="letter-a-second" />
+            </div>
           </div>
-          <div>
-            <img src={iIcon} alt="i" className="letter-i" />
-          </div>
-          <div>
-            <img src={kIcon} alt="k" className="letter-k" />
-          </div>
-          <div>
-            <img src={aIcon} alt="a" className="letter-a" />
-          </div>
-          <div>
-            <img src={sIcon} alt="s" className="letter-s" />
-          </div>
-          <div>
-            <img src={seconsI} alt="i" className="letter-i-second" />
-          </div>
-          <div>
-            <img src={seconda} alt="a" className="letter-a-second" />
+          <div className="homepage-container-bottom">
+            <div>
+              <img src={adA} alt="a" className="ad-letter-a" />
+            </div>
+            <div>
+              <img src={adD} alt="d" className="ad-letter-d" />
+            </div>
+            <div>
+              <img src={adV} alt="v" className="ad-letter-v" />
+            </div>
+            <div>
+              <img src={adE} alt="e" className="ad-letter-e" />
+            </div>
+            <div>
+              <img src={adR} alt="r" className="ad-letter-r" />
+            </div>
+            <div>
+              <img src={adT} alt="t" className="ad-letter-t" />
+            </div>
+            <div>
+              <img src={adI} alt="i" className="ad-letter-i" />
+            </div>
+            <div>
+              <img src={adN} alt="n" className="ad-letter-n" />
+            </div>
           </div>
         </div>
-        <div className="homepage-container-bottom">
-          <div>
-            <img src={adA} alt="a" className="ad-letter-a" />
+        <div className="homepage-sections-hover">
+          <div className="homepage-container-top">
+            <div>
+              <img src={eIcon} alt="e" className="letter-e" />
+            </div>
+            <div>
+              <img src={iIcon} alt="i" className="letter-i" />
+            </div>
+            <div>
+              <img src={kIcon} alt="k" className="letter-k" />
+            </div>
+            <div>
+              <img src={aIcon} alt="a" className="letter-a" />
+            </div>
+            <div>
+              <img src={sIcon} alt="s" className="letter-s" />
+            </div>
+            <div>
+              <img src={seconsI} alt="i" className="letter-i-second" />
+            </div>
+            <div>
+              <img src={seconda} alt="a" className="letter-a-second" />
+            </div>
           </div>
-          <div>
-            <img src={adD} alt="d" className="ad-letter-d" />
-          </div>
-          <div>
-            <img src={adV} alt="v" className="ad-letter-v" />
-          </div>
-          <div>
-            <img src={adE} alt="e" className="ad-letter-e" />
-          </div>
-          <div>
-            <img src={adR} alt="r" className="ad-letter-r" />
-          </div>
-          <div>
-            <img src={adT} alt="t" className="ad-letter-t" />
-          </div>
-          <div>
-            <img src={adI} alt="i" className="ad-letter-i" />
-          </div>
-          <div>
-            <img src={adN} alt="n" className="ad-letter-n" />
+          <div className="homepage-container-bottom">
+            <div>
+              <img src={adA} alt="a" className="ad-letter-a" />
+            </div>
+            <div>
+              <img src={adD} alt="d" className="ad-letter-d" />
+            </div>
+            <div>
+              <img src={adV} alt="v" className="ad-letter-v" />
+            </div>
+            <div>
+              <img src={adE} alt="e" className="ad-letter-e" />
+            </div>
+            <div>
+              <img src={adR} alt="r" className="ad-letter-r" />
+            </div>
+            <div>
+              <img src={adT} alt="t" className="ad-letter-t" />
+            </div>
+            <div>
+              <img src={adI} alt="i" className="ad-letter-i" />
+            </div>
+            <div>
+              <img src={adN} alt="n" className="ad-letter-n" />
+            </div>
           </div>
         </div>
       </div>

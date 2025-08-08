@@ -464,11 +464,21 @@ a {
   display: flex;
   flex-direction: column;
   overflow-x: hidden;
+  position: relative;
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
 .homepage-container::-webkit-scrollbar {
   display: none;
+}
+.homepage-container .homepage-sections-normal {
+  width: 100%;
+}
+.homepage-container .homepage-sections-hover {
+  position: absolute;
+  width: 100%;
+  left: 0%;
+  opacity: 0.5;
 }
 .homepage-container-top {
   height: 100%;
